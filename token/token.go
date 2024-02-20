@@ -14,6 +14,7 @@ const (
 	// 識別子 + リテラル
 	IDENT = "IDENT" // add, foobar, x, y ...
 	INT = "INT" // 1343456
+	STRING = "STRING"
 
 	// 演算子
 	ASSIGN = "="
@@ -32,11 +33,14 @@ const (
 	// デリミタ
 	COMMA = ","
 	SEMICOLON = ";"
+	COLON = ":"
 
 	LPAREN = "("
 	RPAREN = ")"
 	LBRACE = "{"
 	RBRACE = "}"
+	LBRACKET = "["
+	RBRACKET = "]"
 
 	// キーワード
 	FUNCTION = "FUNCTION"
